@@ -1,5 +1,5 @@
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-      ? '/RP2G.github.io/'
+      ? '/rp2g.github.io/'
       : '/'
   }
