@@ -1,22 +1,26 @@
 <template>
-  <div>
+<div>
+<b-container class="bv-example-row">
+  <b-row>
+    
+    <b-col sm="12">
      
       <!-- Main box -->
       <div class="main-box">
-        <b-row class="justify-content-md-center" align-v="center">
-          <b-col col  md="3" @click=goToPiton>
+        <b-row class="justify-content-sm-center" align-v="center">
+          <b-col col sm="12" md="auto" @click=goToPiton>
             <div>smarenkov</div>
-            <img src="../assets/Snake_Logo.png" width="400" height="400">
+            <img src="../assets/Snake_Logo.png" width="300" height="300">
           </b-col>
 
-          <b-col col  md="auto">
+          <b-col col sm="12" md="auto">
             <div class="rp2g-title">RolePlay2Gamers</div>
-            <img src="../assets/DuetOfDead-Quadro.png" width="500" height="500">
+            <img src="../assets/DuetOfDead-Quadro.png" width="350" height="350">
           </b-col>
 
-          <b-col col  md="3" @click=goToWolf>
-            <div>artwolfffrpg</div>
-            <img src="../assets/Wolf_Logo.png" width="400" height="400">
+          <b-col col sm="12" md="auto" @click=goToWolf>
+            <div>artwolfff</div>
+            <img src="../assets/Wolf_Logo.png" width="300" height="300">
           </b-col>
         </b-row>
       </div>
@@ -42,7 +46,7 @@
               Space Colony Platforms 
             </div>
             <div>
-              2D platformer
+              Platformer
             </div>
           </b-col>
           <b-col col  md="1"></b-col>
@@ -59,7 +63,7 @@
               Party Hunt
             </div>
             <div>
-              Mobile RPG
+              RPG
             </div>
           </b-col>
           <b-col col  md="1"></b-col>
@@ -76,7 +80,7 @@
               Station 7 Sins 
             </div>
             <div>
-              2D rouge-like game
+              Metroidvania
             </div>
           </b-col>
           <b-col col  md="1"></b-col>
@@ -86,14 +90,14 @@
         <b-row class="justify-content-md-center game-description" align-v="center"> 
           <b-col col  md="1"></b-col>
           <b-col col  md="4">
-              <!-- <img src="../assets/station-7s-player.png" width="100"> -->
+              <img src="../assets/img/monster_runner_player.png" width="100">
           </b-col>
           <b-col>
             <div class="rp2g-title">
               Monster Runner
             </div>
             <div>
-              runner game
+              runner
             </div>
           </b-col>
           <b-col col  md="1"></b-col>
@@ -101,8 +105,13 @@
 
       </div>
 
-    </div>
-  </template>
+    </b-col>
+    
+  </b-row>
+  </b-container>
+
+</div>
+</template>
 
 <script>
 export default {
