@@ -8,9 +8,6 @@ Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 
-import VueParticles from 'vue-particles'
-Vue.use(VueParticles)
-
 new Vue({
   router,
   render: h => h(App),
