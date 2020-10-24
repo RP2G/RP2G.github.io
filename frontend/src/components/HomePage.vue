@@ -5,7 +5,7 @@
       <!-- Main box -->
       <div class="main-box">
         <b-row class="justify-content-sm-center" align-v="center">
-          <b-col col order-sm="2" order-md="1" order-lg="1" order-xl="1"
+          <b-col col order="2" order-sm="2" order-md="1" order-lg="1" order-xl="1"
             xs="6" sm="6" md="3" lg="3" xl="3" 
             @click=goToPiton>
 
@@ -13,13 +13,13 @@
             <img src="../assets/Snake_Logo.png" width=100%>
           </b-col>
 
-          <b-col col order-sm="1" order-md="2" order-lg="2" order-xl="2"
-            xs="12" sm="10" md="5" lg="5" xl="5">
+          <b-col col order="1" order-sm="1" order-md="2" order-lg="2" order-xl="2"
+            xs="10" sm="10" md="5" lg="5" xl="5">
             <div class="rp2g-title">RolePlay2Gamers</div>
             <img src="../assets/DuetOfDead-Quadro.png" width=100%>
           </b-col>
 
-          <b-col col order-sm="3" order-md="3" order-lg="3" order-xl="3"
+          <b-col col order="3" order-sm="3" order-md="3" order-lg="3" order-xl="3"
             xs="6" sm="6" md="3" lg="3" xl="3" 
             @click=goToWolf>
             
