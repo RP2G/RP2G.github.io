@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router';
+import "vue-gifplayer/src/gif.css"
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 // Install BootstrapVue
