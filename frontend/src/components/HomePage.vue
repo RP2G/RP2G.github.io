@@ -9,7 +9,7 @@
             cols="6" sm="6" md="3" lg="3" xl="3" 
             @click=goToPiton>
 
-            <div>smarenkov</div>
+            <div>s.marenkov</div>
             <img src="../assets/Snake_Logo.png" width=100%>
           </b-col>
 
@@ -44,7 +44,7 @@
         <!-- Space Colony Platforms -->
         <b-row class="justify-content-md-center game-description" align-v="center"> 
           <b-col col sm="3" md="4">
-            <img src="../assets/img/space_colony_platforms_player.png" width="100">
+            <img src="../assets/img/space_colony_platforms_player.png" width="75">
           </b-col>
           <b-col>
             <div class="rp2g-title">
@@ -122,7 +122,7 @@ export default {
 
   data(){
     return {
-      pitonUrl: "https://github.com/smarenkov",
+      pitonUrl: "http://smarenkov.github.io/",
       wolfUrl: "https://github.com/artwolfffrpg",
 
       playGif: false,
